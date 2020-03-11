@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="ko">
+  
+<head>
+    <meta charset="utf-8">
+    <title>리젤온라인 | 서버정보</title>
+    <style>
+      body{
+  margin: 0;
+  padding: 0;
+  font-family: montserrat,sans-serif;
+  background: black;
+}
+
+.logo{
+  color: #fff;
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  transform: translate(-50%,-50%);
+  background: black;
+  padding: 0 40px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.line{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.line:first-child{
+  animation: anim 8s infinite;
+}
+
+@keyframes anim {
+  0%{
+    margin-top: 0;
+  }
+  16%{
+    margin-top: -60px;
+  }
+  33%{
+    margin-top: -120px;
+  }
+  50%{
+    margin-top: -180px;
+  }
+  66%{
+    margin-top: -120px;
+  }
+  82%{
+    margin-top: -60px;
+  }
+  100%{
+    margin-top: 0;
+  }
+}
+.maxcute{
+  position: absolute;
+  top: 0.4324%;
+  left: 12%;
+}
+#menu{
+          margin: 0;
+          padding: 0;
+          margin-top: 0%;
+      }
+      #menu li{
+          list-style: none;
+          display: inline-block;
+      }
+      #menu li a{
+          text-decoration: none;
+          position: relative;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 700;
+          font-family: sans-serif;
+          display: block;
+          overflow: hidden;
+          transition: 0.7s all;
+          padding: 14px 30px; 
+          text-transform: uppercase;
+      }
+      #menu li a::before{
+          content: '';
+          width: 60px;
+          position: absolute;
+          border-bottom: 8px solid #ffffff;
+          bottom: 0;
+          right: 300px;
+          transition: 0.7s all;
+      }
+      #menu li a:hover::before{
+          right: 0;
+      }
+      .infotext{
+      position: absolute;
+      top: 30%;
+      left: 37%;
+      }
+      .infotext p{
+        color: #ffffff;
+      }
+      .infotext h1{
+        color: #ffffff;
+      }
+      .infotext li{
+        color: #ffffff;
+      }
+      .infotext br{
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <div class="line">리젤</div>
+      <div class="line">온라인</div>
+      <div class="line">RIGEL</div>
+      <div class="line">ONLINE</div>
+    </div>
+    <div class="maxcute">
+    <ul id="menu">
+      <ul>
+         <li><a href="https://band.us/@rigel">BAND</a></li>
+         <li><a href="https://discord.gg/C7mr8C">디스코드</a></li>
+         <li><a href="info.html">서버정보</a></li>
+         <!--
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">HOME</a></li>
+          -->
+      </ul>
+    </ul> 
+    </div>
+    <div class="infotext">
+        <h1>서버주소 : rigel24.kro.kr</h1>
+        <h1>포트 : 19132</h1>
+        <h1>장르 : 인생 경제</h1>
+    </div>
+  </body>
+</html>
